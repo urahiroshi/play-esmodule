@@ -12,7 +12,9 @@
   "devDependencies": {},
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:node": "node main.js",
+    "start:server": "python -m http.server",
+    "browser": "open http://localhost:8000/"
   },
   "author": "",
   "license": "ISC"
