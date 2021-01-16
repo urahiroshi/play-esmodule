@@ -12,6 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "build": "webpack",
+    "tsc": "./node_modules/typescript/bin/tsc",
     "start:node": "node main.js",
     "start:server": "python -m http.server",
     "browser": "open http://localhost:8000/"
